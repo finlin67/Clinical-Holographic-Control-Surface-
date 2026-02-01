@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import HolographicControlSurface from './HolographicControlSurface';
+import ClinicalHolographicControlSurface from './ClinicalHolographicControlSurface';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -10,8 +10,8 @@ if (!rootElement) {
 const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
-    <div className="w-full h-full flex items-center justify-center bg-black overflow-hidden">
-      <HolographicControlSurface />
+    <div className="w-full h-full flex items-center justify-center bg-[#050505] overflow-hidden">
+      <ClinicalHolographicControlSurface />
     </div>
   </React.StrictMode>
 );
